@@ -1,0 +1,31 @@
+body.dark {
+  direction: rtl;
+  text-align: right;
+  background-color: #121212;
+  color: #ffffff;
+
+  .container {
+    background-color: #1e1e1e;
+  }
+
+  .form {
+    background-color: #2a2a2a;
+  }
+
+  .input {
+    background-color: #333333;
+    color: #ffffff;
+    border: 1px solid #555555;
+  }
+
+  .button {
+    background-color: #007bff;
+    &:hover {
+      background-color: #0056b3;
+    }
+  }
+
+  .error {
+    color: #ff4d4d;
+  }
+}
